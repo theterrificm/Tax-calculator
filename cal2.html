@@ -24,13 +24,13 @@
                                     </div>
                                     <div class="mt-1 d-inline-flex">
                                         <span class="dollar ">$</span>
-                                        <input type="number" value="0" class="custom-text amount ms-3">
+                                        <input type="number" value="0" id="valBox" class="custom-text amount ms-3">
                                         
                                     </div>
                                     <div >
-                                        <input id="range-s" type="range" min="5000" step="1000" max="2500000" name="" id="">
-                                        <span class="sm-text text-secondary">$ 5000</span>
-                                        <span class="float-end sm-text text-secondary">$ 2.5M</span>
+                                        <input id="range-s" type="range" min="500" step="1000" max="200000" name="" >
+                                        <span class="sm-text text-secondary">$ 500</span>
+                                        <span class="float-end sm-text text-secondary">$ 200K</span>
 
                                     </div>
                                     <div class="mt-5 text-center">
@@ -61,13 +61,13 @@
                                             <div class="d-inline-flex mt-3">
                                                 <span class="ms-2"></span><small class="sm-text text-secondary"> Tax Rate %</small><span></span>
                                             </div>
-                                            <p>10%</p>
+                                            <p><span id="tax-perc"> 10 </span>%</p>
                                         </div>
                                         <div class="me-3">
                                             <div class="d-inline-flex mt-3">
                                                 <span class="ms-2"></span><small class="sm-text text-secondary"> Tax Due</small><span></span>
                                             </div>
-                                            <p>$ 3423</p>
+                                            <p>$ <span id="taxac">3423</span> </p>
                                         </div>
                                     </div>    
                                 </div>
