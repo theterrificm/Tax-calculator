@@ -1,0 +1,35 @@
+.background-primary{
+    background-color: #e3ecff;
+}
+.sm-text{
+    font-size: 0.8rem;
+}
+.dollar{
+    font-weight: bold;
+}
+.amount{
+    font-size: 3rem;
+    font-weight: 500;
+}
+input[type="range" i]{
+    width: 100%;
+}
+.final-amount{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main-h{
+    font-weight: 400;
+}
+.custom-text{
+    background: none;
+    border: none;
+}
+.custom-text:focus-visible{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.bg-white{
+    box-shadow: -1px -2px 20px 0px #0000001a;
+}

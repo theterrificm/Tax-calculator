@@ -1,0 +1,72 @@
+/* 
+Primary color
+#4253b2 
+*/
+.primary-color{
+    background-color: #4253b2!important;
+    color: white;
+}
+.text-primary{
+    color: #4253b2;
+}
+.tax-val .form-control{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid lightgray;
+    
+}
+.tax-val > .form-control:focus{
+    
+    box-shadow: none;
+
+}
+input[type="range" i]{
+    color: azure!important;
+}
+
+.donut {
+   
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+      red 0deg 0deg,
+      #4253b2 0deg 360deg
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.d-box{
+    text-align: -webkit-center!important;
+}
+.hole {
+    width: 90px; height: 90px;
+    border-radius: 50%;
+    background: #fff;
+}
+.tax-m{
+    height: 10px;
+    background-color: red;
+    width: 10px;
+    border-radius: 50px;
+}
+.income-m{
+    height: 10px;
+    background-color: #4253b2;
+    width: 10px;
+    border-radius: 50px;
+    
+}
+.form-floating>label::after{
+    background: none!important;
+}
+#floatingPassword{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+h2{
+    font-weight: 400;
+}
