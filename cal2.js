@@ -11,6 +11,7 @@ $(document).ready(function(){
         $("#range-s").val($("#valBox").val())
     })
     $(".calculate").click(function(){
+        $(".tax-table").css("display", "block")
         total = Number($("#range-s").val())
         var tax = total /100 * 10
         if(total <= 9875){
